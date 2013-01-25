@@ -1,0 +1,13 @@
+bin
+private
+.obj/
+nbproject/private/
+
+# MSVC++-specific ignores
+Debug/
+Release/
+ipch/
+*.sdf
+*.opensdf
+*.user
+*.suo

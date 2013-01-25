@@ -1,0 +1,18 @@
+README for RobotVisionHelper project
+Developed by FRC Team 3167
+
+Updated: 1/25/2013
+
+Usage:
+This application is intended to help with determining the proper threshold ranges for blob identification using the FRC WPI libraries.  It supports RGB and HSL color spaces.
+
+The default settings are such that a screenshot of the FRC Dashboard (with the webcam view on the left) can be pasted (using the "Update From Clipboard" button) and the application will correctly capture only the webcam area from the clipboard.  The original image will appear in the box on the left side of the window.
+
+As the color thresholds are changed, the image on the left will update to reflect the resulting binary image that will be returned from a call to one of the FRC image processing threshold-processing algorithms.  White represents pixels that fall within the specified range; black pixels fall outside the specified range.
+
+Compiling:
+RobotVisionHelper was written in C++ and links against the free wxWidgets libraries.  These libraries can be downloaded from www.wxwidgets.org.
+
+It compiles under Windows or Linux (GTK) (and possibly under Macintosh platforms also, although these were never tested).
+
+MSVC++ and NetBeans project files and a makefile for use with gcc are included.
